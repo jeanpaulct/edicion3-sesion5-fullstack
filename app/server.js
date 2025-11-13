@@ -27,6 +27,10 @@ app.get('/rocoto', function(req, res) {
   res.json({ mensaje: '¡A comer rocoto!' })
 })
 
+app.get('/nodejs', function(req, res) {
+  res.json({ mensaje: '¡A programar en NodeJs!' })
+})
+
 app.post('/', function(req, res) {
   res.json({ mensaje: 'Método post' })   
 })
